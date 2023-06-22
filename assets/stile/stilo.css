@@ -180,3 +180,8 @@ table,tr,th,td {
 ul{
     padding-left: 3rem;
 }
+form{
+    border: var(--border);
+    background-color: var(--background-color);
+    color: var(--color);
+}
