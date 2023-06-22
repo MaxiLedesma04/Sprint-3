@@ -1,4 +1,4 @@
-*{
+* :not(form){
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -180,8 +180,56 @@ table,tr,th,td {
 ul{
     padding-left: 3rem;
 }
+#ttitulo-raf{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 form{
-    border: var(--border);
-    background-color: var(--background-color);
+    width: 27vw;
+    background-color: white;
     color: var(--color);
+}
+.formu{
+    height: 70vh;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+}
+.formu input, option, legend, label, select{
+    background-color:white;
+}
+.payment{
+    background-color:white;
+}
+.mensaje{
+    background-color: white;
+}
+.mensaje input{
+    width: 22vw;
+    height: 15vh;
+}
+.condiciones{
+    padding-top: 0.5rem;
+    font-size: small;
+    background-color: white;
+}
+.terminos{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+#cuerpo {
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.mapaa{
+    height: 23rem;
+    width: 30rem;
+}
+.mapaa h2{
+    font-size: medium;
 }
