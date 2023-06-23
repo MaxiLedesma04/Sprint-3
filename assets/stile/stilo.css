@@ -199,6 +199,10 @@ form{
 .formu input, option, legend, label, select{
     background-color:white;
 }
+.fecha{
+    display: flex;
+    flex-direction: column;
+}
 .payment{
     background-color:white;
 }
@@ -219,17 +223,216 @@ form{
     justify-content: space-between;
     background-color: white;
 }
-#cuerpo {
+#cuerpos {
     margin-top: 1.5rem;
     margin-bottom: 0.5rem;
     display: flex;
     justify-content: center;
     gap: 1.5rem;
 }
-.mapaa{
+.mapaa iframe{
     height: 23rem;
     width: 30rem;
 }
 .mapaa h2{
     font-size: medium;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px){
+    .logo-navegador{
+        height: 2rem;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        background-color: var(--background-color);
+    }
+    .logo-navegador img {
+        height: 1.3rem;
+        width: 1.5rem;
+        align-self: center;
+    }
+    nav{
+        font-size: x-small;
+        width: 30%;
+        height: 1.3rem;
+    }
+    nav a{
+        width: 50%;
+        height: 1.2rem;
+    }
+    .primimg h2, h3{
+        font-size: medium;
+    }
+    .primimg img{
+        width: 15rem;
+        height: 12rem;
+    }
+    .sec2{
+        width: 20rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sec2 img{
+        margin-top: 0.5rem;
+        padding: 0%;
+        width: 15rem;
+        height: 8rem;
+    }
+    .sec2 p{
+        width: 15rem;
+        padding: 0%;
+        color: var(--color);
+        font-size: x-small;
+    }
+    .about1{
+        font-size: small;
+    }
+    .about2 h2{
+        font-size: small;
+    }
+    .about2 p{
+        font-size: small;
+    }
+    .about2 img{
+        width: 10rem;
+        height: 7rem;
+    }
+    .contact1 h2, h3{
+        font-size: small;
+    }
+    .contact2 p{
+        font-size: small;  
+    }
+    .contact2 img{
+        width: 50vw;
+        height: 50vh;
+    }
+    .contact3 a{
+        font-size: small;
+    }
+    #tabla,h3,h2{
+        font-size: small;
+        padding: 0.5rem;
+    }
+    table,tr,th,td {
+        font-size: small;
+        padding: 1rem;
+    }
+    #cuerpo img{
+        height: 10rem;
+        width: 12.5rem;
+        padding: 0.5rem;
+    }
+    #cuerpo>div {
+        gap: 1.5rem;
+    }
+    .listas{
+        margin-left: 0.5rem;
+        margin-top: 0.5rem;
+        justify-content: space-around;
+        padding: 0rem;
+    }
+    .l2{
+        font-size: small;
+        margin-top: 7rem;
+        padding: 0rem;
+    }
+    .l1{
+        font-size: small;
+        padding: 0rem;
+    }
+    ul{
+        font-size: small;
+        padding-left: 1.5rem;
+    }
+    .mapaa{
+        padding: 0rem;
+        display: flex;
+        flex-direction: column;
+        margin-left: 0rem;
+    }
+    .mapaa iframe{
+        height: 12rem;
+        width: 9.3rem;
+    }
+    .mapaa h2{
+        font-size: 10px;
+    }
+    form{
+        margin-top: 1rem;
+        width: 15rem;
+        height: 20rem;
+    }
+    .formu{
+        height: 1.5rem;
+        background-color:white;
+        display: flex;
+        flex-direction: column;
+    }
+    .formu input, option, legend, label, select{
+        font-size: x-small;
+        background-color:white;
+    }
+    .fecha{
+        width: 6.5rem;
+        display: flex;
+    }
+    .payment{
+        margin-top: 10%;
+        font-size: x-small;
+        background-color:white;
+    }
+    .mensaje{
+        margin-top: 0.2rem;
+        font-size: x-small;
+        background-color: white;
+    }
+    .mensaje input{
+        font-size: x-small;
+        width: 5rem;
+        height: 2rem;
+    }
+    .condiciones{
+        padding-top: 0.5rem;
+        font-size: x-small;
+        background-color: white;
+    }
+    .terminos{
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+    }
+    #cuerpos {
+        margin-top: 0rem;
+        margin-bottom: 0.5rem;
+        gap: 0rem;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    form{
+        width: 25rem;
+        height: 30rem;
+    }
+    .formu{
+        height:25rem;
+        display: flex;
+        flex-direction: column;
+    }
+    #cuerpo>div {
+        gap: 1rem;
+    }
+    #cuerpo img{
+        height: 15rem;
+        width: 20rem;
+    }
+     .l2{
+        margin-top: 7rem;
+        padding: 0rem;
+    }
+    .l1{
+        padding: 0rem;
+    }
+    ul{
+        padding-left: 3rem;
+    }
 }
